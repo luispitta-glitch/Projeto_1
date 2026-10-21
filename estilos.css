@@ -1,0 +1,36 @@
+p {
+  font-family: Arial, sans-serif; /* Define a fonte como Arial */ 
+  font-size: 8pt;                 /* Define o tamanho do texto para 8pt */
+  color: darkblue;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: red;
+}
+
+/*
+div {
+  background-color: lightblue; /* Fundo azul claro */
+  padding: 15px;               /* Espaçamento interno para o texto não encostar à borda */
+}
+
+*/
+
+/* 1. Estilos gerais aplicados a TODOS os divs */
+div {
+  padding: 15px;
+  margin-bottom: 15px; /* Espaço entre os divs */
+}
+
+/* 2. Cores específicas de cada caixa (classes) */
+.caixa-azul {
+  background-color: lightblue;
+}
+
+.caixa-verde {
+  background-color: lightgreen;
+}
